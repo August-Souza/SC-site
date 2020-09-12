@@ -1,12 +1,16 @@
 import React from 'react';
+import Player from '../../components/Player';
 
-import { Container } from './styles';
+import { Container, Content } from './styles';
 
 const Home: React.FC = () => {
   return (
-    <Container>
-      <h1>Home</h1>
-    </Container>
+    <>
+      <Player />
+      <Container>
+        <Content />
+      </Container>
+    </>
   );
 };
 
