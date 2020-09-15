@@ -1,23 +1,9 @@
 import styled from 'styled-components';
 
-import imgh from '../../assets/imgHeaderF.png';
-
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-`;
-
-export const Image = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: calc(100vh - 50px);
-  background: url(${imgh}) no-repeat center;
-  img {
-    width: calc(100vw - 50%);
-    opacity: 1;
-  }
 `;
 
 export const Live = styled.div`

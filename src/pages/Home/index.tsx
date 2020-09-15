@@ -6,16 +6,15 @@ import Gallery from '../../components/Gallery';
 
 import imgLive from '../../assets/imgLogoR.png';
 
-import { Container, Live, Image } from './styles';
+import { Container, Live } from './styles';
+import Header from '../../components/Header';
 
 const Home: React.FC = () => {
   return (
     <>
       <Player />
       <Container>
-        <Image>
-          <img className="oi" src={imgLive} alt="poi" />
-        </Image>
+        <Header />
         <Live>
           <div>
             <h2>Santos Charme Lives</h2>

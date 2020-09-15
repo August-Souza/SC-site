@@ -40,6 +40,7 @@ export const SocialMedias = styled.div`
       margin-left: 20px;
     }
     svg {
+      color: #000;
       width: 25px;
       height: 25px;
     }
