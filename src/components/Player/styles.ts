@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  overflow: hidden;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -34,11 +35,13 @@ export const PlayTrack = styled.div`
 export const SocialMedias = styled.div`
   margin-right: 80px;
 
-  svg {
-    & + svg {
+  a {
+    & + a {
       margin-left: 20px;
     }
-    width: 20px;
-    height: 20px;
+    svg {
+      width: 25px;
+      height: 25px;
+    }
   }
 `;

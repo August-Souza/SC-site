@@ -4,7 +4,7 @@ export const Container = styled.div``;
 
 export const Content = styled.div`
   width: 100%;
-  position: absolute;
+  position: initial;
   bottom: 0;
   background-color: #191919;
   font-size: 12px;
